@@ -12,6 +12,6 @@ int main()
     // int div = a-b;
     printf("Sum of number is: %d \n", sum);
     printf("Div of number is: %d \n", div);
-    printf("Mul of number is: %d \n", mul);
+    printf("Muliply of number is: %d \n", mul);
     return 0;
 }
