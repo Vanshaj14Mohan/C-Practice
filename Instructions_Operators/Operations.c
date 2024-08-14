@@ -9,10 +9,12 @@ int main()
     int sum = a+b;
     int div = a-b;
     int mul = a*b;
+    int mods = a%b;
     int divslash = a/b;
     printf("Sum of number is: %d \n", sum);
     printf("Divison of number is: %d \n", div);
     printf("Muliply of number is: %d \n", mul);
+    printf("Modulus of number is: %d \n", mods);
     printf("By of number is: %d \n", divslash);
     return 0;
 }
