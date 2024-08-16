@@ -10,7 +10,7 @@ int main(){
         printf("Divisible by 2");
     }
     else{
-        printf("Not Divisible");
+        printf("Not Divisible by 2");
     }
     return 0;
 }
