@@ -15,5 +15,12 @@ int main(){
     printf("For w: %d \n", w);
     printf("%d \n", 4>3); //will show 1 as true
     printf("%d \n", 3>4); //will show 0 as false
+    printf("%d \n", 4 == 4); //will show 1
+    printf("AND operator: %d \n", 4>3 && 9>5);
+    printf("OR operator: %d \n", 4>3 || 5>7);
+    printf("NOT operator: %d \n", !((5>6) && (4>2)));
     return 0;
 }  
+
+
+
