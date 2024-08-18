@@ -5,6 +5,7 @@ int main(){
     scanf("%d", &num);
     if(num >0){
         printf("Number is Positive \n");
+        //nested if else
         if(num %2 == 0){
             printf("An even number");
         }
