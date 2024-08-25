@@ -1,4 +1,4 @@
-//Wap to print factorial of a number
+//Wap to print factorial of a number, only for small numbers
 #include<stdio.h>
 int main(){
     int fact = 1;
