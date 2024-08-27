@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int sum =0;
-    for(int i =5; i<=50; i++){
+    for(int i =6; i<=50; i++){
         sum = sum + i;
     }
     printf("Sum of number is %d :", sum);
