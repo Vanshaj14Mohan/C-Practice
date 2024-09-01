@@ -1,4 +1,4 @@
-//Pattern printing
+// Star Pattern printing
 #include<stdio.h>
 int main(){
     int i, j;

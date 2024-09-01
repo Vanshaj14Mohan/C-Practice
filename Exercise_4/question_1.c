@@ -1,13 +1,19 @@
 //Wap to check if a number is prime number or not.
 #include<stdio.h>
 int main(){
-    int n;
+    int n, i, count =0;
     printf("Enter a number:");
     scanf("%d", &n);
-    if(n %1 ==0 && n %n == 0){
-        printf("Number is prime number:");
+    for(i = 1; i<=n; i++){
+        if(n%i ==0){
+            count++;
+        } 
+    }
+    if(count == 2){
+        printf("A prime number");
     }
     else{
-        printf("Not a prime number:");
+        printf("Not a prime number");
     }
+    return 0;
 }
