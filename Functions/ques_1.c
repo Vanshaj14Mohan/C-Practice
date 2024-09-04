@@ -27,5 +27,5 @@ void printHello(){
 }
 
 void printGoodbye(){
-    printf("Good byee :)\n");
+    printf("Good byee:)\n");
 }
