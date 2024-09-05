@@ -5,6 +5,7 @@ void printHello(); //declarartion prototype
 int main(){
     printHello(); //function call
     printHello();
+    return 0;
 }
 
 void printHello(){ //function definition
