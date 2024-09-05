@@ -1,3 +1,4 @@
+//Write a function to calculate the sum of two numbers.
 #include<stdio.h>
 
 int sum(int a, int b); //Function protoptype
