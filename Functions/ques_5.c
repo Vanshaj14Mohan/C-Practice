@@ -4,10 +4,11 @@
 void calcPrice( float n); //function declarartion
 
 int main(){
-    float n;
-    printf("Enter the number:");
-    scanf("%f", &n);
-    calcPrice(float n);
+    float n = 10;
+    calcPrice(n);
+    // printf("Enter the number:");
+    // scanf("%f", &n);
+    // calcPrice(float n);
     return 0;
 }
 
