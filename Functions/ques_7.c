@@ -3,7 +3,9 @@
 
 //for square
 float sideArea(float side);
+//For circle
 float circleArea(float rad);
+//For rectangle
 float rectangleArea(float a , float b);
 
 
@@ -14,7 +16,7 @@ int main(){
     float b = 6;
     printf("Square of a area is : %f \n", sideArea(5));
     printf("Square of a circle is : %f \n", circleArea(5));
-    printf("Sqaure of a rectangle is : %f \n", rectangleArea);
+    printf("Sqaure of a rectangle is : %f \n", rectangleArea(a,b));
     return 0;
 }
 
@@ -29,3 +31,5 @@ float circleArea(float rad){
 float rectangleArea(float a, float b){
     return a *b;
 }
+
+
