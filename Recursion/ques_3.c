@@ -4,7 +4,7 @@ float convTemp(float celsius);
 
 int main(){
     float far = convTemp(10);
-    printf("Fahrenheit: %f", &far);
+    printf("Fahrenheit: %f", far);
     return 0;
 }
 
