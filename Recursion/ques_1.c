@@ -1,7 +1,5 @@
 //Wap to calculate sum of first n natural numbers using recursion
-
 #include<stdio.h>
-
 int sum(int n);
 
 int main(){
