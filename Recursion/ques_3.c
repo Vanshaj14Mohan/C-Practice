@@ -3,7 +3,7 @@
 float convTemp(float celsius);
 
 int main(){
-    float far = convTemp(10);
+    float far = convTemp(20);
     printf("Fahrenheit: %f", far);
     return 0;
 }
