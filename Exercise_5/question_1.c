@@ -1,4 +1,4 @@
-//Write a function to find sum of digits of a number
+//. Write a function to print "Hot" or "Cold" depending on the temperature user enters. 
 #include<stdio.h>
 //function prototype
 void caltemp(int temperature);
@@ -20,6 +20,7 @@ int main(){
     return 0;
 }
 
+//another method
 // #include <stdio.h>
 
 // // Function prototype
