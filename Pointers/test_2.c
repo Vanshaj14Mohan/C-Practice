@@ -1,4 +1,5 @@
 //Pointer to Pointer case:
+//Print the value of "i" from it's pointer to pointer.
 #include<stdio.h>
 int main(){
     // float price = 100.0;
