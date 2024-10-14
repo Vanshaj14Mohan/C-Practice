@@ -1,3 +1,5 @@
+//Wap in C to find maximum number between two numbers using a pointer. 
+//normal case
 #include<stdio.h>
 
 void testCase(int a, int b, int *sum, int *prod, int *avg);
