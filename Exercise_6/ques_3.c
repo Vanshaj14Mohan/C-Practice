@@ -8,6 +8,7 @@ int main(){
         *(ptr+i) = 'A' + i;
     }
 
+   //For alphabet 
     printf("English Alphabet:\n");
     for(int i =0; i<26; i++){
         printf("%c\n", *(ptr+i));
