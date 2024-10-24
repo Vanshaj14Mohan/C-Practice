@@ -6,7 +6,6 @@ int main(){
     scanf("%f", &price[0]);
     scanf("%f", &price[1]);
     scanf("%f", &price[2]);
-
     printf("Price of first product is: %f\n ", price[0]+(0.18*price[0]));
     printf("Price of second product is: %f\n ", price[1]+(0.18*price[1]));
     printf("Price of third product is: %f\n", price[2]+(0.18*price[2]));
