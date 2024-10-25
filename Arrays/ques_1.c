@@ -11,4 +11,5 @@ int main(){
     printf("Price of second product is: %f\n ", price[1]+(0.18*price[1]));
     printf("Price of third product is: %f\n", price[2]+(0.18*price[2]));
     return 0;
+    
 }
