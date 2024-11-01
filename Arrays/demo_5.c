@@ -4,14 +4,14 @@ int main(){
 
     //for input 
     int *ptr = &marks[0];
-    for(int i =0; i<10; i++){
+    for(int i =0; i<5; i++){
         printf("%d index: ", i);
-        scnaf("%d", (ptr+i));
+        scanf("%d", (ptr+i));
     }
 
     //for output
-    for(int i =0; i<10; i++){
-        printf("%d index = %d\n", i, *(ptr+i));
+    for(int i =0; i<5; i++){
+        printf("%d index = %d\n", i, marks[i]); // or *(ptr+i)
     }
     return 0;
 }
