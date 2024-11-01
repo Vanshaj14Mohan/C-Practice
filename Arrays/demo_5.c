@@ -6,7 +6,7 @@ int main(){
     int *ptr = &marks[0];
     for(int i =0; i<5; i++){
         printf("%d index: ", i);
-        scanf("%d", (ptr+i));
+        scanf("%d", &marks[i]); //or (ptr+i)
     }
 
     //for output
