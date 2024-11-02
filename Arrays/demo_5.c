@@ -3,7 +3,7 @@ int main(){
     int marks[5];
     //for input 
     int *ptr = &marks[0];
-    for(int i =0; i<5; i++){
+    for(int i =0; i<5; i++){ //giving size
         printf("%d index: ", i);
         scanf("%d", &marks[i]); //or (ptr+i)
     }
