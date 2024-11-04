@@ -7,7 +7,6 @@ int main(){
         printf("%d index: ", i);
         scanf("%d", &marks[i]); //or (ptr+i)
     }
-
     //for output
     for(int i =0; i<5; i++){
         printf("%d index = %d\n", i, marks[i]); // or *(ptr+i)
