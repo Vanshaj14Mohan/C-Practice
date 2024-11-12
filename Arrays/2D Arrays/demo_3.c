@@ -21,7 +21,7 @@ void printArr(int arr[], int n){
     printf("\n");
 }
 
-
+//void coz revArr is not returning anything
 void revArr(int arr[], int n){ //function definition
     for(int i =0; i<n/2; i++){
        int firVal = arr[i];
