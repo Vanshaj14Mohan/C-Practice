@@ -29,7 +29,5 @@ void revArr(int arr[], int n){ //function definition
        //now to reverse it
        arr[i] = secVal;
        arr[n-i-1] = firVal;
-
     }
-
 }
