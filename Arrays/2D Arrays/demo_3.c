@@ -1,6 +1,5 @@
 //Write a function to reverse an array.
 #include<stdio.h>
-//function prototype
 
 //now to print array
 void printArr(int arr[], int n);
