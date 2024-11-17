@@ -11,6 +11,6 @@ int main(){
         fib_arr[i] = fib_arr[i-1] + fib_arr[i-2]; //baisc formula nth therm = (n-1) + (n-2)
         printf("%d\t", fib_arr[i]);
     }
-    printf("\n");
+    // printf("\n");
     return 0;
 }
