@@ -9,7 +9,7 @@ int main(){
     fib_arr[1] = 1;
     for(int i = 2; i<n; i++){ //1,2,3,5...
         fib_arr[i] = fib_arr[i-1] + fib_arr[i-2]; //baisc formula nth therm = (n-1) + (n-2)
-        printf("%d\t", fib_arr[i]);
+        printf("%d\t", fib_arr[i]); //elements
     }
     // printf("\n");
     return 0;
