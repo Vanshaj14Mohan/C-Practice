@@ -18,6 +18,7 @@
 //     return 0;
 // }
 
+//A better way approach
 #include<stdio.h>
 int main(){
     char name[100];
