@@ -18,7 +18,7 @@
 //     return 0;
 // }
 
-//A better way approach
+//A better way approach using fgets and puts
 #include<stdio.h>
 int main(){
     char name[100];
