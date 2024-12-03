@@ -26,4 +26,4 @@ int main(){
     puts(name);
     return 0;
 }
-
+//will print the string fully
