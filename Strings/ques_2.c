@@ -8,7 +8,7 @@
 //     scanf("%s", fullName);
 //     printf("Full Name is %s", fullName);
 //     return 0;
-// }
+// } will not print the full string, just the first word of that
 
 // #include<stdio.h>
 // int main(){
