@@ -24,6 +24,13 @@ int main(){
     char name[100];
     fgets(name, 100, stdin);
     puts(name);
+
+    char *canChange = "Hello world";
+    puts(canChange);
+    canChange = "hello";
+    puts(canChange); //can change the value of canChange coz we user char pointer
+
     return 0;
 }
-//will print the string fully
+
+
