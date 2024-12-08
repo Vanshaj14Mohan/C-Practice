@@ -14,5 +14,5 @@ int countLength(char arr[]){
     for(int i =0; arr[i] !='\0'; i++){
         count ++;
     }
-    return count;
+    return count-1;
 }
