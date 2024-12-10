@@ -12,7 +12,7 @@ int main(){
         str[i] = ch;
         i++;
     }
-    str[i] = '\0';
+    str[i] = '\0'; //null element 
     puts(str);
     return 0;
 }
