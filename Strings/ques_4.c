@@ -5,7 +5,7 @@
 int main(){
     char str[100];
     char ch;
-    int i = 0;
+    int i = 0; //used i for indexing
 
     while(ch != '\n'){
         scanf("%c", &ch);
