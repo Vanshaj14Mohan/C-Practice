@@ -1,4 +1,4 @@
-//Take a string input from the user using %c.
+//Take a string input from the user using %c. format specifier
 #include<stdio.h>
 #include<string.h>
 
