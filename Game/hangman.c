@@ -5,7 +5,7 @@
 #include <time.h>
 
 #define MAX_WORD_LENGTH 20
-#define MAX_GUESSES 6
+#define MAX_GUESSES 6 //max guess 
 
 void hangmanGame() {
     char word[MAX_WORD_LENGTH];
