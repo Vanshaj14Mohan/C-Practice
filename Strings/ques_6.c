@@ -1,0 +1,1 @@
+//Write a function named slice, which takes a string & returns a sliced string from index n to m.
