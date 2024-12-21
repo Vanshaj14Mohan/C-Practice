@@ -2,6 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 
+void salting(char password[]); //function to  
+
 int main(){
     char password[100];
     scanf("%s", password);
