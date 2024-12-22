@@ -1,3 +1,4 @@
+//Write a function to count the occurence of vowels in a string.
 #include<stdio.h>
 #include<string.h>
 
@@ -5,7 +6,6 @@ int countVowels(char str[]);
 
 int main(){
     char str[] = "HelloMorning";
-    // printf("Vowels present in the string are: %d", countVowels(str));
     printf("Vowels are: %d", countVowels(str));
     return 0;
 }
