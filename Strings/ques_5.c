@@ -2,7 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 
-void salting(char password[]); //function to  
+//creating function
+void salting(char password[]); //will print the new password
 
 int main(){
     char password[100];
